@@ -1,0 +1,15 @@
+# You probably know, but just in case... 
+# you must rename it to .screenrc and drop it in your home directory.
+# use this for the hard status string
+# hardstatus alwayslastline
+# #hardstatus string "%h%? users: %u%?"
+# hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+#hardstatus alwayslastline "%l %c %w" 
+#
+## Change scrollback to 10000 lines
+defscrollback 5000
+
+## look and feel for the bottom two lines.
+##
+caption     always        "%{+b rk}%H%{gk} |%c %{yk}%d.%m.%Y | %72=Load: %l %{wk}"
+hardstatus alwayslastline "%?%{yk}%-Lw%?%{wb}%n*%f %t%?(%u)%?%?%{yk}%+Lw%?"
